@@ -2,13 +2,13 @@
 
 ## About this project
 
-This software was developed at El Bosque University by [Juan Diego](github.com/sseuriracha) and [Isabella](github.com/usapanda), intended for a generic company in need of a software focused on recruitment management. This project was completely done in Java, and written in Eclipse IDE.
+This software was developed at El Bosque University by [Juan Diego](https://www.github.com/sseuriracha) and [Isabella](https://www.github.com/usapanda), intended for a generic company in need of a software focused on recruitment management. This project was completely done in Java, and written in Eclipse IDE.
 
 ## Getting Started
 
 ### Prerequisites
 
-To run this code, it is necessary to have installed [Eclipse](eclipse.org). 
+To run this code, it is necessary to have installed [Eclipse](https://www.eclipse.org). 
 
 ![BongoCat typing](https://media.tenor.com/z8_OLIvVkm0AAAAd/bongo-cat.gif)
 
