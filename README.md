@@ -16,10 +16,10 @@ To run this code, it is necessary to have installed [Eclipse](https://www.eclips
 
 Distributed under the GNU General Public License v3.0. See `LICENSE.txt` for more details.
 
-## Contact
+## Contact Us
 
- - [**Project Link**](github.com/sseuriracha/recursos-humanos)
- - Juan Diego - [Corporate e-mail](jvalderramat@unbosque.edu.co)
- - Isabella - [Corporate e-mail](icamargos@unbosque.edu.co)
+ - [**Project Link**](https://github.com/sseuriracha/recursos-humanos)
+ - Juan Diego - [Corporate e-mail](mailto:jvalderramat@unbosque.edu.co)
+ - Isabella - [Corporate e-mail](mailto:icamargos@unbosque.edu.co)
  
  ![Stray Kids OT8 GIF](https://i.pinimg.com/originals/64/ee/85/64ee85766e771d97397c8843ceefbb10.gif)
