@@ -40,6 +40,9 @@ public class Controller implements ActionListener {
 			display.getdP().getList().setText(lst.toString());
 			display.setVisible(true);
 		}
+		if (e.getActionCommand().equals(gui.getiP().UPDATE)) {
+			candidate.updateCandidate(gui.getiP().getNameinput().getText(), gui.getiP().getLastnameinput().getText(), gui.getiP().getIdinput().getText(), gui.getiP().getPositioninput().getText(), Integer.parseInt(gui.getiP().getAgeinput().getText()), lst);
+		}
 	}
 
 }

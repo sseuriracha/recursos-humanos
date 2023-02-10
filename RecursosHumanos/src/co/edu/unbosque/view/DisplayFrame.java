@@ -12,7 +12,7 @@ public class DisplayFrame extends JFrame {
 		setSize(750, 500);
 		setResizable(false);
 		setTitle("Listado de Candidatos");
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setLocationRelativeTo(null);
 		dP = new DisplayPanel();
 		add(dP);
