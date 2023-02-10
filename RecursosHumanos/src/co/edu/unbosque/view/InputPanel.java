@@ -1,5 +1,7 @@
 package co.edu.unbosque.view;
 
+import java.awt.GridLayout;
+
 import javax.swing.*;
 
 public class InputPanel extends JPanel {
@@ -22,22 +24,30 @@ public class InputPanel extends JPanel {
 	public static final String READ = "Leer";
 	public static final String UPDATE = "Actualizar";
 	public static final String DELETE = "Eliminar";
+	private static final int ANCHO = 5;
+	private static final int ALTO = 10;
 	
 	public InputPanel() {
+		
+		setLayout(new GridLayout(7, 2));
 		name = new JLabel ("Nombre");
 		nameinput = new JTextField();
 		lastname = new JLabel ("Apellido");
 		lastnameinput = new JTextField();
+		lastnameinput.setSize(ANCHO, ALTO);
 		position = new JLabel ("Cargo");
 		positioninput = new JTextField();
+		positioninput.setSize(ANCHO, ALTO);
 		id = new JLabel ("C.C.");
 		idinput = new JTextField();
+		idinput.setSize(ANCHO, ALTO);
 		age = new JLabel ("Edad");
 		ageinput = new JTextField ();
-		create = new JButton ();
-		read = new JButton();
-		update = new JButton();
-		delete = new JButton();
+		ageinput.setSize(ANCHO, ALTO);
+		create = new JButton ("Crear");
+		read = new JButton("Leer");
+		update = new JButton("Actualizar");
+		delete = new JButton("Borrar");
 		create.setActionCommand(CREATE);
 		read.setActionCommand(READ);
 		update.setActionCommand(UPDATE);
@@ -53,6 +63,10 @@ public class InputPanel extends JPanel {
 		add(idinput);
 		add(age);
 		add(ageinput);
+		add(create);
+		add(read);
+		add(update);
+		add(delete);
 		
 	}
 
