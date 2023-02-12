@@ -4,11 +4,21 @@ import javax.swing.JFrame;
 
 import co.edu.unbosque.controller.Controller;
 
+/**
+ * The DisplayFrame class creates a new window where all of the candidates' information will be displayed.
+ *
+ */
+
 public class DisplayFrame extends JFrame {
 	
 	private DisplayPanel dP;
 	
-	public DisplayFrame(Controller cont) {
+	/**
+	 * The class' constructor sets the configuration of the window.  
+	 * @param cont controller that will allow the objects in the window to perform operations.
+	 */
+	
+	public DisplayFrame() {
 		setSize(750, 500);
 		setResizable(false);
 		setTitle("Listado de Candidatos");

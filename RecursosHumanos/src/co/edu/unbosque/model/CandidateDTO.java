@@ -2,11 +2,17 @@ package co.edu.unbosque.model;
 
 import java.io.Serializable;
 
+/**
+ * CandidateDTO is the Data Transfer Object containing the information from a single candidate. It is serialized in order to store every single CandidateDTO object.
+ *
+ */
+
 public class CandidateDTO implements Serializable {
 	
 	/**
 	 * 
 	 */
+	
 	private static final long serialVersionUID = 1L;
 	private String name;
 	private String lastname;
@@ -14,6 +20,14 @@ public class CandidateDTO implements Serializable {
 	private String position;
 	private int age;
 	
+	/**
+	 * <p>Constructor for the CandidateDTO class. The parameters mentioned will be used to build the object representing every candidate.
+	 * @param name candidate's name
+	 * @param lastname candidate's last name
+	 * @param id candidate's ID number
+	 * @param position candidate's current position
+	 * @param age candidates's age
+	 */
 	public CandidateDTO(String name, String lastname, String id, String position, int age) {
 		super();
 		this.name = name;
@@ -22,7 +36,7 @@ public class CandidateDTO implements Serializable {
 		this.position = position;
 		this.age = age;
 	}
-
+	
 	public String getName() {
 		return name;
 	}
@@ -65,8 +79,8 @@ public class CandidateDTO implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Candidate [name=" + name + ", lastname=" + lastname + ", id=" + id + ", position=" + position
-				+ ", age=" + age + "]\n";
+		return "Candidate [Name: " + name + ", Last Name: " + lastname + ", ID: " + id + ", Position: " + position
+				+ ", Age: " + age + "]\n";
 	}
 	
 	
